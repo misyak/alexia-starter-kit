@@ -16,6 +16,7 @@ service: alexia-starter-kit
 provider:
   name: aws
   runtime: nodejs4.3
+  stage: ${env:STAGE}
 
 # you can overwrite defaults here
 #  stage: dev

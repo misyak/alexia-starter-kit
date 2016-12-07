@@ -12,7 +12,13 @@
     "start": "node server/start-http-server.js",
     "mon": "nodemon --exec \"node server/start-http-server.js\"",
     "deploy": "serverless deploy",
-    "gen": "node bin/generate.js"
+    "deploy:function": "serverless deploy function -f alexa",
+    "gen": "node bin/generate.js",
+    "lambci-build": "npm run lint && npm test && npm run deploy:function"
+  },
+  "lambci":
+  {
+    "cmd": "npm install && npm run lambci-build"
   },
   "author": "",
   "license": "Apache-2.0",
