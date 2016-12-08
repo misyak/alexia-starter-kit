@@ -1,5 +1,5 @@
 {
-  "name": "alexia-starter-kit-lambCI-7",
+  "name": "alexia-starter-kit-lambCI-8",
   "version": "1.0.0",
   "description": "Starter kit project with sample Amazon Echo skill created using Alexia Framework",
   "main": "src/app.js",
