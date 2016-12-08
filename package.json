@@ -11,7 +11,7 @@
     "test:dev": "nodemon --exec \"mocha --opts .mocharc || true\"",
     "start": "node server/start-http-server.js",
     "mon": "nodemon --exec \"node server/start-http-server.js\"",
-    "deploy": "serverless deploy",
+    "deploy": "cross-env STAGE=devmm serverless deploy",
     "deploy-function": "cross-env STAGE=devmm serverless deploy function -f alexa",
     "gen": "node bin/generate.js",
     "lambci-build": "npm run lint && npm test && npm run deploy"
