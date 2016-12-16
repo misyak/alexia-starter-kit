@@ -14,7 +14,7 @@
     "deploy": "cross-env STAGE=devmm serverless deploy",
     "deploy-function": "cross-env STAGE=devmm serverless deploy function -f alexa",
     "gen": "node bin/generate.js",
-    "lambci-build": "npm run lint && npm test && npm run deploy"
+    "lambci-build": "npm run lint && npm test && npm run deploy-function"
   },
   "lambci": {
     "cmd": "npm install && npm run lambci-build"
