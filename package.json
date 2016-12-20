@@ -14,7 +14,7 @@
     "deploy": "serverless deploy",
     "deploy-function": "serverless deploy function -f alexa",
     "gen": "node bin/generate.js",
-    "lambci-build": "npm run lint && npm test && npm run deploy-function"
+    "lambci-build": "npm run lint && npm test && npm run deploy"
   },
   "lambci": {
     "cmd": "npm install && npm run lambci-build",
