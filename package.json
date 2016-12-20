@@ -19,7 +19,7 @@
   "lambci": {
     "cmd": "npm install && npm run lambci-build",
     "env": {
-      "STAGE": "devmm"
+      "STAGE": "dev-mm"
     }
   },
   "author": "",
