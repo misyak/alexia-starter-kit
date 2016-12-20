@@ -12,7 +12,7 @@ const app = alexia.createApp();
  * Register callback to be executed once app is started without any intent.
  * Example invocation: 'Alexa, start <my-app-name>'
  */
-app.onStart(() => 'Welcome to Alexia Starter Kit with LambCI 3');
+app.onStart(() => 'Welcome to Alexia Starter Kit with LambCI 4');
 
 // Register all intents matching specified pattern
 app.registerIntents('src/modules/**/*-intent.js');
