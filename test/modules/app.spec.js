@@ -17,7 +17,7 @@ describe('(Alexa Skill) App', () => {
 
     app.handle(launchRequest, data => {
       const text = data.response.outputSpeech.text;
-      expect(text).to.equal('Welcome to Alexia Starter Kit with LambCI 2');
+      expect(text).to.equal('Welcome to Alexia Starter Kit with LambCI 3');
       done();
     });
   });
